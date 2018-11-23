@@ -35,6 +35,19 @@
 
 		
 	</section>
+	<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBgm6_Op-TsVjFIMmyd20a6WYxEl7B_Liw",
+    authDomain: "carrito-143dc.firebaseapp.com",
+    databaseURL: "https://carrito-143dc.firebaseio.com",
+    projectId: "carrito-143dc",
+    storageBucket: "carrito-143dc.appspot.com",
+    messagingSenderId: "475993195522"
+  };
+  firebase.initializeApp(config);
+</script>
 	
 </body>
 </html>
